@@ -59,6 +59,7 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 1em;
+            margin-left:20px;
         }
 
         button:hover {
@@ -67,6 +68,7 @@
 
         .hidden {
             display: none;
+            font family:'sacramento', cursive;
         }
 
         #greeting {
