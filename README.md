@@ -111,21 +111,11 @@
         <form id="nameForm">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            <button type="submit" class="submit">Submit</button>
+        <button type="submit"><a class="submit" href="happy diwali.html">Submit</a></button>                                             
         </form>
-        <p id="greeting" class="hidden">Happy Diwali, <span id="userName"></span>!</p>
     </div>
 
-    <script>
-        document.getElementById("nameForm").addEventListener("submit", function(event) {
-            event.preventDefault();
-            var name = document.getElementById("name").value;
-            if (name) {
-                document.getElementById("userName").textContent = name;
-                document.getElementById("greeting").classList.remove("hidden");
-            }
-        });
-    </script>
+   
 </body>
 
 
