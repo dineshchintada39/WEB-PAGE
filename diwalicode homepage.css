@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use full height for the page */
+    margin: 0; /* Remove default margin */
+    background-color: #97d6ed;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #ea8dce;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(1px 1px 20px rgb(244, 243, 244));
+    width: 90%; /* Set width to 90% of screen */
+    max-width: 500px; /* Set max width for larger screens */
+    margin: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Sacramento', cursive;
+    text-shadow: 2px 2px 4px rgb(34, 33, 34);
+}
+
+p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 60%; /* Make input field responsive */
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #32CD32;
+    color:#333 ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 25%; /* Full-width button */
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #4b7d4b;
+}
+
+.hidden {
+    display: none;
+}
+
+#greeting {
+    margin-top: 15px;
+    font-size: 1.5em;
+    color: #8B0000;
+}
+
+.submit {
+    text-decoration: none;
+    color: white;
+}
+
